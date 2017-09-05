@@ -12,4 +12,8 @@ export class BetaComponent implements OnInit {
   ngOnInit() {
   }
 
+  lowerCoverage() {
+    return `this function shall lower coverage`;
+  }
+
 }

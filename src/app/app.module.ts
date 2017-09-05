@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { BetaComponent } from './beta/beta.component';
 import { GammaComponent } from './gamma/gamma.component';
 import { LoaderService } from './loader.service';
+import { UserService } from './user.service';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { LoaderService } from './loader.service';
     HttpModule,
     AppRoutingModule
   ],
-  providers: [LoaderService],
+  providers: [LoaderService, UserService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
