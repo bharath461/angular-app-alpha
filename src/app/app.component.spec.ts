@@ -2,6 +2,8 @@ import { TestBed, async } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 
 import { AppComponent } from './app.component';
+import { BetaComponent } from './beta/beta.component';
+import { GammaComponent } from './gamma/gamma.component';
 
 describe('AppComponent', () => {
   beforeEach(async(() => {
@@ -10,7 +12,9 @@ describe('AppComponent', () => {
         RouterTestingModule
       ],
       declarations: [
-        AppComponent
+        AppComponent,
+        BetaComponent,
+        GammaComponent
       ],
     }).compileComponents();
   }));
