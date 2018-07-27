@@ -7,6 +7,7 @@
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
+    "cibuild": "ng test --single-run --cc && ng build --prod --no-progress",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
